@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Top Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="recipes.html">Recipes</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav><!-- Top Navigation bar-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="text-center">
+        <h1>Recipes</h1>
+      </div>
+    </div>
+    <div id="recipes" class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal1" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-1.jpg" class="center-block" alt="Roasted pepper, aubergine and sweet potato with garlic and sumac yogurt recipe photo">
+              <div class="overlay">
+                <div class="text">Madras Curry Chicken</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal2" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-2.jpg" class="center-block" alt="Roasted courgette, chickpea and lemon salad recipe photo">
+              <div class="overlay">
+                <div class="text">Quick Chicken Teriyaki</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal3" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-3.jpg" class="center-block" alt="Orzo deli salad recipe photo">
+              <div class="overlay">
+                <div class="text">Taco Salad Made Over</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 3 -->
+        <div class="clearfix visible-lg"></div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal4" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-4.jpg" class="center-block" alt="Sunny Creamy Tahini Pasta Salad recipe photo">
+              <div class="overlay">
+                <div class="text">Simple Southern-Style 'Unfried' Chicken</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 4 -->
+        <div class="clearfix visible-md"></div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal5" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-5.jpg" class="center-block" alt="Spicy Mango, Black Bean & Avocado Tacos recipe photo">
+              <div class="overlay">
+                <div class="text">Mediterranean Mozza-Chicken</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 5 -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="#modal6" data-toggle="modal">
+            <div class="recipe-image">
+              <img src="images/recipe-6.jpg" class="center-block" alt="Cauliflower Turmeric Rice recipe photo">
+              <div class="overlay">
+                <div class="text">Easy Italian Baked Pasta</div>
+              </div>
+            </div>
+          </a>
+        </div><!-- recipe 6 -->
+      </div><!-- .row -->
+    </div><!-- #recipes .container -->
+  </div><!-- .jumbotron-->
+
+  <!-- Recipe Pop-up windows -->
+  <div id="modal1" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Madras Curry Chicken</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1 Tbsp. butter or margarine</li>
+                <li>1/2 cup chopped green peppers</li>
+                <li>1/2 cup chopped onions</li>
+                <li>1 clove garlic, minced</li>
+                <li>2 tsp. curry powder</li>
+                <li>1-1/2 lb. boneless skinless chicken breasts, cut into bite-size pieces</li>
+                <li>1 can (14-1/2 oz.) diced tomatoes, drained</li>
+                <li>1 tsp. lemon juice</li>
+                <li>1/2 tsp. dried thyme leaves</li>
+                <li>1/8 tsp. black pepper</li>
+                <li>1/2 lb. (8 oz.) VELVEETA, cut into 1/2-inch cubes</li>
+                <li>3 cups cooked long-grain white rice</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Melt butter in large saucepan on medium heat. Add green peppers, onions, garlic and curry powder; cook and stir until vegetables are crisp-tender. Add chicken; cook and stir 5 min. or until no longer pink.</li>
+                <li>Stir in tomatoes, lemon juice, thyme and black pepper; simmer on low heat 5 min. or until chicken is done, stirring occasionally.</li>
+                <li>Add VELVEETA; cook until melted, stirring frequently. Serve over rice.</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 1 -->
+
+  <div id="modal2" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Quick Chicken Teriyaki</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1/4 cup KRAFT Lite Zesty Italian Dressing</li>
+                <li>1 lb. boneless skinless chicken breasts, cut into strips</li>
+                <li>1-1/3 cups water</li>
+                <li>1/4 cup teriyaki sauce</li>
+                <li>1/2 tsp. garlic powder</li>
+                <li>2 cups frozen broccoli florets</li>
+                <li>1-1/2 cups instant white rice, uncooked</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Heat dressing in large nonstick skillet on medium-high heat. Add chicken; cook and stir 5 to 7 min. or until done.</li>
+                <li>Add water, teriyaki sauce and garlic powder; stir. Bring to boil.</li>
+                <li>Stir in broccoli and rice; cover. Cook on low heat 5 min. Remove from heat. Let stand, covered, 5 min. Fluff with fork.</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 2 -->
+
+  <div id="modal3" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Taco Salad Made Over</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>4 flour tortillas (8 inch)</li>
+                <li>3/4 lb. extra-lean ground beef</li>
+                <li>1 Tbsp. chili powder</li>
+                <li>1 cup rinsed canned kidney beans</li>
+                <li>1/2 cup TACO BELL® Thick & Chunky Salsa</li>
+                <li>4 cups packed torn mixed salad greens</li>
+                <li>1/2 cup KRAFT 2% Milk Shredded Sharp Cheddar Cheese</li>
+                <li>1 large tomato, chopped</li>
+                <li>2 Tbsp. KRAFT Lite Ranch Dressing</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Heat oven to 425°F.</li>
+                <li>Crumple 4 sheets of foil to make 4 (3-inch) balls; place on baking sheet. Top each with 1 tortilla; spray with cooking spray. Bake 6 to 8 min. or until tortillas are golden brown. (Tortillas will drape over balls as they bake to form shells.)</li>
+                <li>Meanwhile, brown meat with chili powder in large nonstick skillet. Stir in beans and salsa; cook 3 to 5 min. or until heated through, stirring occasionally.</li>
+                <li>Fill tortilla shells with salad greens, meat mixture, cheese and tomatoes. Drizzle with dressing.</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 3 -->
+
+  <div id="modal4" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Simple Southern-Style 'Unfried' Chicken</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1 whole chicken (4 lb.), cut up</li>
+                <li>1/2 cup KRAFT Lite Ranch Dressing</li>
+                <li>1 pkt. SHAKE 'N BAKE Extra Crispy Seasoned Coating Mix</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Remove skin from all chicken pieces except wings. Place chicken in large resealable plastic bag. Add dressing. Seal bag; turn to evenly coat chicken with dressing. Refrigerate 30 min. to marinate.</li>
+                <li>Heat oven to 400°F. Place coating mix in pie plate or shallow dish. Dip chicken in coating mix, turning to evenly coat both sides of each piece. Place in single layer on baking sheet. Sprinkle with any remaining coating mix. Discard bag and marinade.</li>
+                <li>Bake 40 to 45 min. or until chicken is done (165°F).</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 4 -->
+
+  <div id="modal5" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Mediterranean Mozza-Chicken</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>4 small boneless skinless chicken breasts (1 lb.)</li>
+                <li>1 red onion, cut lengthwise in half, then sliced crosswise</li>
+                <li>1 zucchini, chopped</li>
+                <li>1/4 to 1/2 tsp chili powder</li>
+                <li>1/4 cup KRAFT Tuscan House Italian Dressing</li>
+                <li>1/2 cup halved grape tomatoes</li>
+                <li>1/2 cup pitted black olives</li>
+                <li>1 cup KRAFT 2% Milk Shredded Mozzarella Cheese</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Heat large nonstick skillet on medium-high heat. Add chicken; cover skillet with lid. Cook 5 to 7 min. on each side or until chicken is done (165ºF), adding onions and zucchini after 5 min.</li>
+                <li>Add dressing, tomatoes and olives; cover. Cook on medium-low heat 2 min. or until heated through; stir.</li>
+                <li>Top with cheese; cook, covered, 2 min. or until melted.</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 5 -->
+
+  <div id="modal6" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h3 class="modal-title">Easy Italian Baked Pasta</h3>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1 lb. extra-lean ground beef</li>
+                <li>3 cups whole grain penne pasta, cooked</li>
+                <li>1 jar (24 oz.) CLASSICO Tomato and Basil Pasta Sauce</li>
+                <li>1/3 cup KRAFT Grated Parmesan Cheese, divided</li>
+                <li>1-1/2 cups KRAFT 2% Milk Shredded Mozzarella Cheese</li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <h4>Method</h4>
+              <ol>
+                <li>Heat oven to 375°F.</li>
+                <li>Brown meat in large skillet; drain. Return to skillet. Add pasta, pasta sauce and half the Parmesan; mix well.</li>
+                <li>Spoon into 13x9-inch baking dish sprayed with cooking spray; top with remaining cheeses.</li>
+                <li>Bake 20 min. or until heated through.</li>
+              </ol>
+            </div>
+          </div>
+        </div><!-- .modal-body -->
+        <div class="modal-footer">
+          <i class="fas fa-print"></i>
+          <i class="far fa-share-square"></i>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+  </div><!-- Modal Recipe 6 -->
+
+
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container text-center">
+      </div>
+  </div><!-- Bottom Navigation bar/footer-->
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
